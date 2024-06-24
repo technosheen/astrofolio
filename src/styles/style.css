@@ -20,7 +20,9 @@
   h2,
   h3,
   h4,
-  h5,
+  h5 {
+    @apply text-lg;	
+  }
   h6 {
     @apply font-outfit;
   }

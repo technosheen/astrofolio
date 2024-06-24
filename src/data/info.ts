@@ -1,11 +1,10 @@
 export const info = {
   baseUrl: "https://astro-portfolio-uzair.vercel.app",
-  name: "Uzair Ahmed",
+  name: "Sean Mahoney",
   jobDescription: "Web Developer",
-  about: `I'm a software engineer based in Karachi, Pakistan.
+  about: `I'm a software engineer based in St Petersburg, Florida.
    I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
-   I have been working for 3 year, with a demonstrated history of working in the Computer Software industry. Skilled in Front-end Development.
-   I have 3 years of experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
+   I have 6 years of Front-end Development experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
    I have successfully completed several web projects from scratch. 
    Yet, I learn continuously and never stop exploring new technologies.
    So, I have also gained knowledge of Node JS, Express JS, Mongo DB, Python,
@@ -14,84 +13,202 @@ export const info = {
 
   experience: [
     {
-      name: "InterNative Labs, LLC",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "Apr 2022",
+      name: "AEM Developer",
+      company: "American Express",
+      location: "New York, NY",
+      startDate: "May 2024",
       endDate: "Present",
       description: [
-        "- Developing screens and UI components for the web application using React and Tailwind.",
-        "- Fixing UI issues and integrating backend APIs with Redux Saga.",
+        "✓ Writing high-quality code for digital platforms using HTML, CSS and Javascript.",
+        "✓ Building reusable digital experiences while managing and customizing modular web content.", 
+        "✓ Executing development for a range of multiple parallel project engagements.",
+        "✓ Producing, maintaining, and modifying digital experiences and user interfaces.",
+        "✓ Partnering with the UX/UI, copy and design teams to setup digital experiences for success from the ideation stage.",
+        "✓ Ensuring all digital experiences align to industry standards and best practices.", 
+        "✓ Partnering with QA team to troubleshoot and resolve defects.",
       ],
     },
 
     {
-      name: "Coupon Approve (Remote)",
-      location: "Amsterdam, North Holland, Netherlands",
-      startDate: "Nov 2020",
-      endDate: "Apr 2022",
+      name: "Software Developer",
+      company: "Lighthouse Creative Group",
+      location: "New York, NY",
+      startDate: "July 2022",
+      endDate: "Aug 2023",
       description: [
-        "✓ Developing code in accordance with appropriate design and architectural rules",
-        "✓ Documenting, testing, deployment, maintenance, support of platforms, applications, databases and solutions",
-        "✓ Help and training of other colleagues",
-        "✓ Others tasks connected to the nature of the job",
-        "✓ Code Improvements and Refactoring ",
-        "✓ Best Practices and Rules Maintainer",
+        "✓ Design, implement, and maintain custom web applications for enterprise clients using Adobe Experience Manager, Hubspot, Salesforce Marketing Cloud, and Wordpress",
+        "✓ Providing support and maintenance for existing systems",
+        "✓ Work closely with cross-functional teams to ensure that all stakeholders are involved and informed throughout the development process",
+        "✓ Delivering successful projects on time and within budget",
       ],
     },
 
     {
-      name: "Interns Pakistan",
-      location: "Pakistan",
-      startDate: "Oct 2020",
-      endDate: "Nov 2020",
+      name: "AEM Developer",
+      company: "DT Professional Services",
+      location: "Los Angeles, CA",
+      startDate: "September 2020",
+      endDate: "October 2021",
       description: [
-        "An Immersive Internship Program that prepares me for the world's most in-demand career. A six weeks program completely based on learning and challenges.",
-        "The internship track is built by an industry expert that let develop the skills in the areas most important ",
+        "✓ Implementing and managing content management platforms for complex, high-volume, transactional websites with high-profile clients",
+        "✓ Concepting and implementing enterprise content management solutions based on AEM",
+        "✓ Supporting the transfer of AEM into the development and operating environment of the EPD (AEM architecture and staging)",
+        "✓ Java-based development of release-capable AEM software components and implementing web frontend HTML templates in AEM JSP templates",
+        "✓ Supported the product owner in the assessment of requirements with regard to AEM architecture, technologies, internal interfaces or connections to third-party systems",
       ],
     },
+
+    {
+      name: "Web Developer",
+      company: "Reed Exhibitions",
+      location: "New York, NY",
+      startDate: "February 2020",
+      endDate: "August 2020",
+      description: [
+        "✓ Work within Adobe Experience Manager to manage the day-to-day maintenance for different portfolio and conference websites",
+        "✓ Tweak CMS to optimize content. Managing requests to ensure website maintenance is released within SLA guidelines",
+        "✓ Maintaining internal documentation outlining what information is available on each site",
+      ],
+    },
+
+    {
+      name: "Workday Integrations Senior Analyst",
+      company: "Accenture",
+      location: "New York, NY",
+      startDate: "May 2019",
+      endDate: "November 2019",
+      description: [
+        "✓ Designed, prototyped, and built Workday systems",
+        "✓ Top-to-bottom knowledge of Workday ensuring clients worked smarter",
+        "✓ Spotted strategies for clients, explained their pros and cons, and then got working on the best one",
+        "✓ Helped clients understand and follow industry standards and practices",
+      ],
+    },
+
+    {
+      name: "Interim Marketing Director",
+      company: "HUDSON",
+      location: "New York, NY",
+      startDate: "September 2018",
+      endDate: "January 2019",
+      description: [
+        "✓ Directed development of interactive, direct marketing, media, creative, sales promotion and PR strategies and assets",
+        "✓ Pioneered and implemented new lead generation processes",
+        "✓ Built a relational database for marketing assets, campaigns, and properties",
+        "✓ Designed, oversaw and optimized all email marketing campaigns",
+        "✓ Created analytics program to track and review site performance",
+      ],
+    },
+
+    {
+      name: "Marketing Coodinator",
+      company: "Pat Munger Construction Company, Inc.",
+      location: "Greater New York City Area",
+      startDate: "November 2016",
+      endDate: "May 2017",
+      description: [
+        "✓ As the company's first marketing hire, I worked closely with Vice President to develop the marketing plan and department",
+        "✓ Spearheaded budget development, SEO strategy, website updates, content creation, analytics reporting, and email marketing",
+        "✓ Advised management on industry trends, tech, and how to set and determine KPIs",
+      ],
+    },
+
+    {
+      name: "Inventory Cost Analyst",
+      company: "Diamonds International",
+      location: "New York, NY",
+      startDate: "May 2015",
+      endDate: "January 2016",
+      description: [
+        "✓ Operated as sole internal auditor for entire company",
+        "✓ Monitored cost and inventory controls, including cost changes, purchase order reviews, and investigations into cycle count variances",
+        "✓ Advised Chief Financial Officer on year-end close and annual Diamond Trading Commission audit",
+      ],
+    },
+
+    {
+      name: "Accounting Associate Executive Finance",
+      company: "Bridgewater Associates",
+      location: "Greater New York City Area",
+      startDate: "January 2015",
+      endDate: "March 2015",
+      description: [
+        "✓ Processed and maintained all bill pay, general ledgers, financial reporting, cash management, and managing the monthly close",
+        "✓ Compiled information, analysis, and reports needed for tax returns",
+        "✓ Prepared bank, investment, credit card reconciliations and reviewed disbursements, bank reconciliations, credit card transactions, general ledgers, and financial statements",
+      ],
+    },
+
+    {
+      name: "Assistant Shipping Manager",
+      company: "LifeGlobal Group",
+      location: "Greater New York City Area",
+      startDate: "September 2013",
+      endDate: "December 2014",
+      description: [
+        "✓ Maintained immaculate product records in compliance with strict ISO 13485 medical regulations",
+        "✓ Conducted weekly cycle counts on inventory and investigated any discrepancies",
+        "✓ Organized and fulfilled supply chain shipments to multiple international offices",
+      ],
+    },
+
   ],
 
   education: [
     {
-      name: "Pakistan Institute of Professional Science & Technology (PIPS-TECH)",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2019",
-      endDate: "2022",
+      name: "Google",
+      location: "New York, NY",
+      startDate: "203",
+      endDate: "2023",
       description: [
-        "Diploma of Associate Engineering,  Computer Information Technology (CIT)",
+        "Generative AI Fundamentals",
       ],
     },
     {
-      name: "Govt. Degree Boys College Buffer Zone",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2018",
-      endDate: "2020",
-      description: ["Intermediate, Pre-Engineering"],
-    },
-    {
-      name: "Ghazi Foundation Schools & Colleges",
-      location: "Karāchi, Sindh, Pakistan",
-      startDate: "2016",
-      endDate: "2018",
-      description: ["Matriculation,  Computer Science"],
+      name: "Pace University - Lubin School of Business",
+      location: "New York, NY",
+      startDate: "2013",
+      endDate: "2016",
+      description: [
+        "Bachelor of Business Administration (B.B.A.), Accounting and Internal Audit",
+      ],
     },
   ],
 
   socialMedia: {
-    facebook: "https://www.facebook.com/profile.php?id=100022899849583",
-    twitter: "https://twitter.com/Uzzii_21",
-    github: "https://github.com/uzzii-21",
-    email: "mailto:uzairahmed@74372gmail.com",
-    linkedin: "https://www.linkedin.com/in/uzzii21/",
+    github: "https://github.com/technosheen",
+    email: "mailto:sean@thisisoutmost.com",
+    linkedin: "https://www.linkedin.com/in/technosheen/",
   },
 
   projects: [
     {
-      title: "Astro Portfolio",
+      title: "Bakkt",
       isFeatured: true,
-      thumbnail: "/assets/images/astro-portfolio.png",
-      githubUrl: "https://github.com/uzzii-21/astro-portfolio",
-      liveUrl: "https://astro-portfolio-uzair.vercel.app/",
+      thumbnail: "/assets/images/bakkt-portfolio.png",
+      githubUrl: "https://gist.github.com/technosheen/da820ebf0bcdba5576e4afdc9b0f0652",
+      liveUrl: "https://bakkt.com/",
+    },
+    {
+      title: "Digital Asset Resource Library",
+      isFeatured: true,
+      thumbnail: "/assets/images/da-portfolio.png",
+      githubUrl: "https://github.com/technosheen/da-resource-library-hubdb",
+      liveUrl: "https://digitalasset.com/",
+    },
+    {
+      title: "Digital Asset Resource Library",
+      isFeatured: true,
+      thumbnail: "/assets/images/convera-portfolio.png",
+      githubUrl: "https://github.com/technosheen/convera-pardot",
+      liveUrl: "https://convera.com/",
+    },
+    {
+      title: "ElastiCamp",
+      isFeatured: true,
+      thumbnail: "/assets/images/elastic-portfolio.png",
+      githubUrl: "https://github.com/technosheen/elasticamp-wp-html",
+      liveUrl: "https://technosheen.github.io/elasticamp-wp-html/",
     },
   ],
 };
