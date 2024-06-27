@@ -1,4 +1,4 @@
-# Portfolio Website - Astro
+~~# Portfolio Website - Astro
 
 Just change `src/data/info.ts` to get your personal portfolio.
 
