@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astro-portfolio-uzair.vercel.app",
+  baseUrl: "https://astrofolio-xi.vercel.app",
   name: "Sean Mahoney",
   jobDescription: "Web Developer",
   about: `I'm a software engineer based in St Petersburg, Florida.
