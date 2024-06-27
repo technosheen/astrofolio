@@ -1,14 +1,8 @@
-~~# Portfolio Website - Astro
-
-Just change `src/data/info.ts` to get your personal portfolio.
-
-## portfolio template for Developers!
-
-![Feature Image](./public/assets/images/astro-portfolio.png)
+~~# Sean Mahoney - Portfolio 
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Inside of this Astro project, you'll see the following folders and files:
 
 ```
 /
