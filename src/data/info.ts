@@ -2,7 +2,7 @@ export const info = {
   baseUrl: "https://astrofolio-xi.vercel.app",
   name: "Sean Mahoney",
   jobDescription: "Web Developer",
-  about: `I'm a software engineer based in St Petersburg, Florida.
+  about: `I'm a software engineer based in NYC and St Petersburg, FL.
    I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
    I have 6 years of Front-end Development experience in HTML, CSS, SCSS, JavaScript, Bootstrap, tailwind CSS, StyledComponent, React JS and Next JS. Hence,
    I have successfully completed several web projects from scratch. 
