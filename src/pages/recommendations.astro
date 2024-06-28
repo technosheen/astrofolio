@@ -1,0 +1,27 @@
+---
+import { info } from "@data";
+
+import RecommendationsWrapper from "@components/general/RecommendationsWrapper.astro";
+import MetaHead from "@components/general/MetaHead.astro";
+import Layout from "@layouts/Layout.astro";
+
+const Recommendations = info.recommendations.map((recommendation) => recommendation);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <MetaHead
+      title={"Recommendations"}
+      description={"All recommendations are available in this page."}
+      ogImageUrl={"/assets/images/profile.png"}
+    />
+  </head>
+
+  <body>
+    <Layout>
+      <h1 style="line-height: 1.2;">Recommendations</h1>
+      <RecommendationsWrapper recommendations={Recommendations} />
+    </Layout>
+  </body>
+</html>

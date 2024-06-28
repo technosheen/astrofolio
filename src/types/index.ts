@@ -35,3 +35,16 @@ export interface IProjects {
 export interface IProjectDetails {
   projectDetail: IProject;
 }
+
+export interface IRecommendation {
+  title: string;
+  isFeatured: boolean;
+  company: string;
+}
+export interface IRecommendations {
+  projects: IRecommendation[];
+}
+
+export interface IRecommendationDetails {
+  projectDetail: IRecommendation;
+}

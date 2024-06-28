@@ -211,4 +211,14 @@ export const info = {
       liveUrl: "https://technosheen.github.io/elasticamp-wp-html/",
     },
   ],
+  recommendations: [
+    {
+      title: "Bakkt",
+      isFeatured: true,
+      company: "Bakkt",
+      description: [
+        "Generative AI Fundamentals",
+      ],
+    },
+  ],
 };

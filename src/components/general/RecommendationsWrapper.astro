@@ -1,0 +1,10 @@
+---
+import { IRecommendations } from "@types";
+import RecommendationCard from "./RecommendationCard.astro";
+
+const { recommendations } = Astro.props as IRecommendations;
+---
+
+<div class="grid md:grid-cols-2 grid-cols-1 gap-4 my-16">
+  {recommendations.map((recommendation) => <RecommendationCard recommendationDetail={recommendation} />)}
+</div>

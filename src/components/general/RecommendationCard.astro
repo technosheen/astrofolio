@@ -1,0 +1,18 @@
+---
+import { IRecommendationDetails } from "@types";
+const { recommendationDetail } = Astro.props as IRecommendationDetails;
+const { title, company, description } = recommendationDetail;
+---
+
+<article class="w-full max-h-[25rem] overflow-hidden relative group">
+  <div class="flex items-center absolute right-4 top-4 z-10">
+  </div>
+  <div
+    class="absolute w-full center-0 left-0 backdrop-blur-md dark:text-white text-dark bg-black/50 p-4"
+  >
+    <h3 class="mr-2 text-xl">{title}</h3>
+    <h5 class="mr-3 text-md text-dark dark:text-white">{company}</h5>
+    <h5 class="mr-3 text-md text-dark dark:text-white">{description}</h5>
+  </div>
+</article>
+
