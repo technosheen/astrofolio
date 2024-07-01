@@ -158,7 +158,7 @@ export const info = {
     {
       name: "Google",
       location: "New York, NY",
-      startDate: "203",
+      startDate: "2023",
       endDate: "2023",
       description: [
         "Generative AI Fundamentals",
