@@ -1,5 +1,5 @@
 export const info = {
-  baseUrl: "https://astrofolio-xi.vercel.app",
+  baseUrl: "technosheen.com",
   name: "Sean Mahoney",
   jobDescription: "Web Developer",
   about: `I'm a software engineer based in NYC and St Petersburg, FL.
@@ -177,7 +177,7 @@ export const info = {
 
   socialMedia: {
     github: "https://github.com/technosheen",
-    email: "mailto:sean@thisisoutmost.com",
+    email: "mailto:sean@technosheen.com",
     linkedin: "https://www.linkedin.com/in/technosheen/",
   },
 
